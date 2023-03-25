@@ -1,0 +1,269 @@
+body{
+    margin:0;
+    min-width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.7em;
+    
+}
+
+header{
+    background-color: black;
+    color:white;
+}
+
+.header-page{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+/* navegação */
+
+nav ul{
+
+    font-weight: bolder;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    padding: 15px;
+    box-sizing: border-box;
+    
+}
+
+.nav-menu{
+    width: 50%;
+}
+
+ .logo{
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo img{
+    width: 140px;
+}
+
+a:hover{
+    color: rgb(71, 107, 17);
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+
+/* section home */
+
+.container-about{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+}
+
+.about{
+    width: 450px;
+    margin: auto;
+}
+
+.about h1{
+   
+    font-family: 'Cardo',serif;
+    font-size: 36px;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about p{
+    
+    margin-top: -25px;
+    color: #7e8690;
+    font-family: 'Open sans',sans-serif;
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about img{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+    box-sizing: border-box;
+    
+}
+
+/* section menu - gelatos */
+.menu{ 
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center; 
+    line-height: 1.4em;
+}
+
+.menu-item{
+
+   min-width: 300px;
+   width: 520px;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   border: 1px dashed  rgba(0, 0, 0, 0.3);
+}
+
+
+.menu-item img{
+    width: 180px;
+    height: 180px;
+    object-fit:cover;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: auto;
+}
+.descricao{
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+    margin:auto;
+    text-align: justify;
+    color: #7e8690;
+   
+}
+
+.descricao h2{
+    font-family: 'Cardo', serif;
+    text-align: start;
+    color: #111;
+    font-size: 16px;
+}
+/* Encontre uma loja */
+.locais-lojas{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+}
+
+.loja{
+    margin: auto;
+    width: 320px;
+    height: 230px;
+    text-align: center;
+    padding: 15px;
+    font-family: 'Cardo', serif;
+    box-sizing: border-box;
+}
+
+.locais-lojas h1{
+    font-size: 36px;
+}
+
+.locais-lojas p{
+    font-size: 18px;
+}
+
+.locais-lojas spam{
+    font-style: italic;
+}
+
+
+.locais-lojas a{
+    background-color: #606a55;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 10px 25px;
+    margin: 0px 16px 0px 0px;
+
+}
+
+/* section contato*/
+.container-contato{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.container-contato h1{    
+   font-family: 'Cardo',serif;
+   font-size: 36px;
+   line-height: 1.4em;
+}
+
+.fale-conosco{
+    font-style: italic;
+    color: #606a55;
+    font-family: "Cookie";
+}
+
+.formulario-contato{
+    width: 90%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+}
+
+.formulario-contato input{
+
+    width: 220px;
+    padding: 10px 35px;
+    margin: auto 10px 10px;
+    border-radius: 0px;
+    border-style: none;
+    box-sizing: border-box;
+
+}
+
+.formulario-contato textarea{
+
+    width: 60%;
+    padding: 10px 35px;
+    margin: 10px;
+    border-style: none;
+    box-sizing: border-box;
+}
+
+.container-contato button{
+    background-color: #606a55;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bolder;
+    font-size: 12px;
+    padding: 10px 25px;
+    margin: 0px 16px 0px 0px;
+}
+
+/* footer */
+
+footer{
+    margin-top: 40px;
+    padding: 2%;
+    background-color:black;
+    text-align: center;
+    color:white;
+}
